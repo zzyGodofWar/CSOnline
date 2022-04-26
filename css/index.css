@@ -1,0 +1,56 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+
+
+body{
+	background-image:url('../image/background.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+#bg-div-video{
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-2
+}
+
+#bg-video{
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+  	height: auto;
+  	width: auto;
+}
+
+#bg-div-mask{
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+}
+
+
+#page-content{
+	width:84%;
+	margin:0 auto;
+	padding-top:40px;
+	padding-bottom:40px;
+	
+}
+
+#page-content h1{
+	text-align:center;
+	color:white;
+	font-size:56px;
+}
